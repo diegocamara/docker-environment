@@ -1,0 +1,81 @@
+[Fri Dec 29 12:10:36.279 2017] [9:140606152583040] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:10:36.284 2017] [9:140606152583040] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:20:52.740 2017] [7:140198435473280] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:20:52.744 2017] [7:140198435473280] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:26:00.534 2017] [8:140198142740224] [info] jk_open_socket::jk_connect.c (817): connect to 127.0.0.1:8009 failed (errno=111)
+[Fri Dec 29 12:26:00.534 2017] [8:140198142740224] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (ajp13_worker) Failed opening socket to (127.0.0.1:8009) (errno=111)
+[Fri Dec 29 12:26:00.534 2017] [8:140198142740224] [error] ajp_send_request::jk_ajp_common.c (1728): (ajp13_worker) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Fri Dec 29 12:26:00.534 2017] [8:140198142740224] [info] ajp_service::jk_ajp_common.c (2773): (ajp13_worker) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Fri Dec 29 12:26:00.635 2017] [8:140198142740224] [info] jk_open_socket::jk_connect.c (817): connect to 127.0.0.1:8009 failed (errno=111)
+[Fri Dec 29 12:26:00.635 2017] [8:140198142740224] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (ajp13_worker) Failed opening socket to (127.0.0.1:8009) (errno=111)
+[Fri Dec 29 12:26:00.635 2017] [8:140198142740224] [error] ajp_send_request::jk_ajp_common.c (1728): (ajp13_worker) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Fri Dec 29 12:26:00.635 2017] [8:140198142740224] [info] ajp_service::jk_ajp_common.c (2773): (ajp13_worker) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Fri Dec 29 12:26:00.635 2017] [8:140198142740224] [error] ajp_service::jk_ajp_common.c (2794): (ajp13_worker) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Fri Dec 29 12:26:00.635 2017] [8:140198142740224] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=ajp13_worker
+[Fri Dec 29 12:27:46.275 2017] [8:140003187955584] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvc.simplemvcapplication
+[Fri Dec 29 12:27:46.277 2017] [8:140003187955584] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:27:46.289 2017] [8:140003187955584] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvc.simplemvcapplication
+[Fri Dec 29 12:27:46.290 2017] [8:140003187955584] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:28:08.197 2017] [9:140002830767872] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:28:08.423 2017] [10:140002981836544] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:28:10.317 2017] [67:140003090982656] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:28:15.444 2017] [96:140003065804544] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:28:45.602 2017] [97:140003090982656] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:32:42.383 2017] [8:139919335126912] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address tomcatservice
+[Fri Dec 29 12:32:42.384 2017] [8:139919335126912] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:32:42.395 2017] [8:139919335126912] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address tomcatservice
+[Fri Dec 29 12:32:42.395 2017] [8:139919335126912] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:33:12.896 2017] [10:139918995011328] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:33:13.035 2017] [9:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:02.164 2017] [67:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:02.477 2017] [96:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:03.478 2017] [125:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:03.613 2017] [126:139919154472704] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:05.480 2017] [183:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:06.481 2017] [212:139919154472704] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:06.634 2017] [213:139919146080000] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:08.484 2017] [270:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:09.486 2017] [300:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:09.630 2017] [299:139919162865408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:34:57.963 2017] [8:140607384885120] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:34:57.970 2017] [8:140607384885120] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:36:48.987 2017] [11:139631424903040] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvccontainer.simplemvcapplication
+[Fri Dec 29 12:36:48.989 2017] [11:139631424903040] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:36:49.012 2017] [11:139631424903040] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvccontainer.simplemvcapplication
+[Fri Dec 29 12:36:49.015 2017] [11:139631424903040] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:37:04.754 2017] [13:139631277573888] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:04.896 2017] [12:139631294359296] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:18.617 2017] [70:139631327930112] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:19.048 2017] [99:139631302752000] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:20.049 2017] [128:139631327930112] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:20.194 2017] [129:139631327930112] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:22.051 2017] [186:139631327930112] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:23.053 2017] [216:139631106410240] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:23.187 2017] [215:139631311144704] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:25.055 2017] [273:139631327930112] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:26.056 2017] [303:139631327930112] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:37:26.192 2017] [302:139631319537408] [error] jk_open_socket::jk_connect.c (639): socket() failed (errno=97)
+[Fri Dec 29 12:38:23.285 2017] [7:139657366751104] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:38:23.322 2017] [7:139657366751104] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:45:18.034 2017] [8:140638740178816] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvccontainer
+[Fri Dec 29 12:45:18.034 2017] [8:140638740178816] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:45:18.054 2017] [8:140638740178816] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvccontainer
+[Fri Dec 29 12:45:18.054 2017] [8:140638740178816] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:46:16.505 2017] [7:139683053795200] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvccontainer
+[Fri Dec 29 12:46:16.505 2017] [7:139683053795200] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:46:16.521 2017] [7:139683053795200] [error] ajp_validate::jk_ajp_common.c (2867): worker ajp13_worker can't resolve tomcat address simplemvccontainer
+[Fri Dec 29 12:46:16.521 2017] [7:139683053795200] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:53:34.375 2017] [8:140636497377152] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 12:53:34.380 2017] [8:140636497377152] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:25:48.718 2017] [8:139837461354368] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:25:48.816 2017] [8:139837461354368] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:43:59.843 2017] [8:139969334421376] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:43:59.863 2017] [8:139969334421376] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:45:05.416 2017] [7:139658256676736] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:45:05.439 2017] [7:139658256676736] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:45:55.436 2017] [8:139756661303168] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:45:55.455 2017] [8:139756661303168] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:47:56.310 2017] [8:140344907782016] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:47:56.352 2017] [8:140344907782016] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:55:53.131 2017] [8:140091998025600] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
+[Fri Dec 29 13:55:53.151 2017] [8:140091998025600] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.41 initialized
